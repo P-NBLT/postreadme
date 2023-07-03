@@ -1,11 +1,16 @@
 export function generateMarkDown(data) {
   return `
   # ${data.title}
+  ---
+
   ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/${
     data.gitHub
   }/${data.repo})
 
+  ---
+
   ## Description 
+  ---
   ${data.description}
   ## Table of Contents
   1. [Installation](#Installation)
@@ -13,11 +18,19 @@ export function generateMarkDown(data) {
   3. [Contribution Guidelines](#Contributions)
   4. [Stacks](#Stacks)
       
+  ---
   ## Installation
+  ---
   ${data.installation}
+
+  ---
   ## Usage
+  ---
   ${data.usage}
+
+  ---
   ## Stacks
+  ---
   ${data.stack
     .map((s) => {
       const reformat = s[0].toUpperCase().concat(s.slice(1));
@@ -25,15 +38,20 @@ export function generateMarkDown(data) {
     })
     .join("\n  ")}
 
+  ---
 
   ## Contributions
+  ---
   ${
     data.contribution != undefined
       ? data.contribution
       : "No contribution to show at the moment"
   }
 
+  ---
+  
   ## Tests
+  ---
   ${data.test != undefined ? data.test : "No test deployed for now."}  
 
   ## Questions
