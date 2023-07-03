@@ -1,5 +1,5 @@
 {
-  "name": "postread",
+  "name": "postreadme",
   "version": "1.0.0",
   "description": "A script that helps you to write a readme file without going through all the markdowns",
   "main": "index.js",
