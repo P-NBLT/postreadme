@@ -43,3 +43,5 @@ export function generateMarkDown(data) {
   3. E-mail: ${data.email}
 `;
 }
+
+// module.exports = { generateMarkDown };

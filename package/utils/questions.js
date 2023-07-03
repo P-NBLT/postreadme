@@ -17,6 +17,7 @@ const questions = [
     type: "input",
     name: "fileName",
     message: "How would you like to name this file?",
+    default: "README.md",
     validate: (input) => {
       if (input.length > 0) {
         return true;
