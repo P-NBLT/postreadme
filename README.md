@@ -7,9 +7,9 @@ A package that can help you to build your README.md file.
 ## Table of Content
 ---
 
-- [Installation] (#Installation)
-- [Usage] (#Usage)
-- [List of entries] (#List-of-entries)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [List of entries](#List-of-entries)
 
 
 ---
