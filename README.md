@@ -7,14 +7,14 @@ A package that can help you to build your README.md file.
 ## Table of Content
 ---
 
-[Installation] (#Installation)
-[Usage] (#Usage)
-[List of entries] (#List-of-entries
+- [Installation] (#Installation)
+- [Usage] (#Usage)
+- [List of entries] (#List-of-entries)
 
 
 ---
 
-## Insatallation
+## Installation
 ---
 npm install postreadme --save-dev
 
@@ -37,7 +37,7 @@ However, you can still use this script and give a different file name when the p
 
 ---
 
-## Entries
+## List of entries
 ---
 
 Below is the list of the prompt commands that you will need to answer. if you press enter without filling anything it will just be empty.
